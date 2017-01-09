@@ -1,0 +1,134 @@
+*{
+margin:2px; padding:2px;
+}
+li {
+list-style: none;
+}
+body{
+	background-color:#E8DED4;
+}
+a{
+	text-decoration: none;
+	color: #8F4747;
+	ont-size: 16px;
+	}
+.clear{
+	clear: both;
+	}
+.wrapper{
+	width: 1000px;
+ 	height: 1000px;
+ 	background: White;
+ 	margin: 0px auto;
+}
+.main_menu{
+	background: White;
+ 	margin-top: 30px;
+ 	text-decoration: none;
+	color: #8F4747;f
+	font-size: 16px;
+}
+.main_menu ul li{
+	float: left;
+	padding: 11px 27px;
+	position: relative;
+	}
+.main_menu ul li:last-child{
+	border-right: none;
+}
+.main_menu ul li ul{
+	display: none;
+	position: absolute;
+	background: #00A69B;
+	top: 41px;
+	width: 198px;
+	left: 0px;
+}
+.main_menu ul li:hover ul{
+	display: block;}
+.main_menu ul li:hover{
+	background: #5F5C5C;
+	transition: all 0.25s;
+	}
+.main_menu ul li ul li a{
+	padding: 5px 10px;}
+.main_menu ul li ul li{
+	border-bottom: 1px
+	dotted #ACACAC;
+}
+.image img{
+	width:950px;
+	margin-top:-30px;
+	margin-left:-5px;
+}
+
+.wrapper .bottom-part .bottom-news .cat-item-bottom {
+    float: left;
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 230px;
+}
+.wrapper .bottom-part .bottom-news .cat-item-bottom .list-news
+.list-item .img-item-bottom {
+    height: 150px;
+    width: 210px;
+	margin-top:18px;
+}
+.div1{
+	font-size: 18px;
+    line-height:25px;
+    color: #FCFCFC;
+    margin-left:75px;
+    margin-bottom:20px;
+	margin-left:710px;
+    }
+.input3{
+	border-radius:5px;
+	width:150px;
+    height:50px;
+	background-color:#953320;
+	color: #FCFCFC;
+	margin-top:20px;
+	}
+.footer{
+	background-color:#C6B198;
+}
+.cat-item{
+	margin-left:60px;
+}
+.row-md .row-link a{
+	color:white;
+}
+.row p{
+	margin-left:580px;
+	margin-top:20px;
+}
+.cat{
+	margin-left:600px;
+}
+.header-status{
+	background-color:#396454;
+}
+.user-pro li{
+	float:right;
+	padding-right:200px;
+	margin-left:-180px;
+	text-align:right;
+	margin-top:-20px;
+}
+.grid_4{
+	margin-left:180px;
+	color:white;
+}
+.user-pro li a{
+	color:white;
+}
+.title-item .link-title-item{
+	color:#7893AC;
+}
+.list-news{
+	border-left:1px solid #E2E4E2;
+}
+.bottom-news .cat-item-bottom:first-child .list-news{
+	border:none;
+}
