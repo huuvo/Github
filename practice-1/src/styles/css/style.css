@@ -1,43 +1,84 @@
-*{
+/**{
 	margin:2px; padding:2px;
-}
+}*/
 
 li {
 	list-style: none;
 }
 
-body{
+body {
 	background-color:#E8DED4;
 }
 
-a{
+a {
 	text-decoration: none;
 	color: #8F4747;
 	font-size: 16px;
 }
 
-.clear{
-	clear: both;
+.header,
+.main,
+.footer {
+	height: 100%;
+	width: 100%;
 }
 
-.navbar-wrapper {
-	width: 1000px;
-	height: 1000px;
-	background: White;
+.container {
+	/*height: 100%;*/
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* header */
+.header {
+	color: white;
+	background-color: #77ae99;
+	height: 50px;
+}
+
+.header * {
+	color: white;
+}
+
+.header .address {
+	float: left;
+}
+
+.header .user-status {
+	float: right;
+}
+
+.header .user-status a {
+	margin-right: 30px;
+}
+
+/* Main */
+.main .container {
+	background-color: white;
+}
+
+.main .banner {
+	height: auto;
+	width: 100%;
+}
+
+/* navbar wrapper */
+.navbar {
 	margin: 0px auto;
 }
 
-.navbar-menu{
-	background: White;
-	text-decoration: none;
-	color: #8F4747;
+.navbar-menu {
+	color: #290808;
 	font-size: 16px;
+	text-decoration: none;
 	width: auto;
 }
 
-.navbar-menu ul li{
+.navbar-menu ul li {
 	float: left;
-	padding: 20px 20px;
+	padding: 20px 30px;
 }
 
 .navbar-menu ul li:last-child{
@@ -49,58 +90,12 @@ a{
 }
 
 .navbar-menu ul li:hover{
-	background: #5F5C5C;
+	background: #77ae99;
 }
 
-.navbar-menu.sub-nav img{
-	width:auto;
-	height:100%;
-}
-
-.main .content .main-content {
-	float: left;
-	margin-left: 20px;
-	padding-top: 18px;
-	width: 210px;
-}
-
-.header{
-	background-color:#396454;
-}
-
-.user-profile li{
-	float:right;
-	margin-left: 32px;
-	text-align:right;
-}
-
-.status-user {
-	color:white;
-}
-
-.user-profile li a{
-	color:white;
-}
-
-.content-title .content-link-title{
-	color:#7893AC;
-}
-
-.main-content{
-	border-left:1px solid #E2E4E2;
-}
-
-.main-content:first-child{
-	border: none;
-}
-
-.main-content:nth-child(5){
-	border:none;
-}
-
-.main-content .content-item{
-	width: 200px;
-	margin-left: 5px;
+.site-map-menu {
+	clear: both;
+	padding: 20px;
 }
 
 .site-map-menu h3{
@@ -111,13 +106,32 @@ a{
 	font-size: 20px
 }
 
-.navbar-menu .sub-nav{
-	width: 100%;
-	height: auto;
+/* recipes list */
+.main .content .recipes-list-item {
+	float: left;
+	margin-left: 20px;
+	padding-top: 18px;
+	width: 210px;
 }
-.sub-nav img{
-	width: 100%;
-	height: auto;
+.content-title .content-link-title{
+	color:#7893AC;
+}
+
+.recipes-list-item{
+	border-left:1px solid #E2E4E2;
+}
+
+.recipes-list-item:first-child{
+	border: none;
+}
+
+.recipes-list-item:nth-child(5){
+	border:none;
+}
+
+.recipes-list-item .content-item{
+	width: 200px;
+	margin-left: 5px;
 }
 
 /* Footer */
