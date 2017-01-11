@@ -9,13 +9,9 @@ This is the first practice about HTML CSS
 
 ## Code Structure
 src: all source code
-	imgs: contains images
-	styles:contins fonts,css
+	images: contains images
+	styles:contains fonts,css
 	css:
-		-base.css
-		-header.css
-		-footer.css
-		-menu.css
-		-content.css
-	views:
+		-reset.css
+		-style.css
 	index.html:contins code
