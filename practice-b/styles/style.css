@@ -1,0 +1,99 @@
+body {
+	font-family:;
+	color: #333;
+	font-weight: 300;
+	margin: 0;
+
+}
+
+.header{
+	background: #333;
+	color: #fff;
+	padding:  0.3em 1em;
+
+}
+
+.content,
+.sidebar{
+	box-sizing: border-box;
+}
+
+.content{
+	background: #e8e8e8;
+	padding: 0.3em 1em;
+	margin-top: 1em;
+
+}
+
+.sidebar {
+	background: #c3c3c3;
+	font-size: 95%;
+	padding: 0.3em 1em;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 600px){
+	.main,
+	.footer:before, .main,
+	.footer:after{
+		content: "";
+		display: table;
+		clear: both;}
+	.main{
+		max-width: 100%;
+	}
+	.content{
+		width: 63.5%;
+		float: left;
+		margin-right: 1.5%;
+	}
+	.sidebar{
+		width: 35%;
+		float: left;
+	}
+}
+/*end table */
+
+/* Desktop */
+
+@media screen and (min-width: 1024px){
+	.container{
+		max-width: 1280px;
+		margin: 0 auto;
+	}
+}
+/* Footer */
+.footer {
+	background-color: #C6B198;
+}
+
+.footer .register,
+.footer .links {
+    text-align: center;
+}
+
+.footer .links {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.footer * {
+	color: #fcfcfc;
+	font-weight: bold;
+}
+
+.footer p {
+	color: black;
+	padding: 20px 0;
+}
+
+.footer .register input[type="submit"] {
+	background-color: #953320;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 50px;
+	margin-top: 20px;
+	width: 150px;
+}
